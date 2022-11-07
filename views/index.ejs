@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <table>
+      <thead>
+        <th>Me</th>
+        <th>You</th>
+        <th>They</th>
+      </thead>
+      <tbody>
+        <td>oya</td>
+        <td>ne</td>
+      </tbody>
+    </table>
+    <table cellpadding="0" cellspacing="0" width="100%" rules="none">
+      <tbody>
+        <tr style="border: 1px">
+          <% tablehead.forEach(head=>{%>
+
+          <th style="width: 96px"><%= head[1]%></th>
+          <% }) %>
+        </tr>
+
+        <% data.forEach(theData=>{%>
+        <tr style="border: 1px">
+          <td
+            style="
+              border-left: thin solid;
+              border-top: thin solid;
+              border-bottom: thin solid;
+              text-align: center;
+            "
+          >
+            Hello
+          </td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </body>
+</html>

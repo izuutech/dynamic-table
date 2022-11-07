@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Okoro",
+    "age": 25,
+    "gender": "male"
+  },
+  {
+    "name": "Chinenye",
+    "age": 23,
+    "gender": "female"
+  },
+  {
+    "name": "Chukwudi",
+    "age": 35,
+    "gender": "male"
+  }
+]

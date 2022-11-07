@@ -13,5 +13,10 @@
     "name": "Chukwudi",
     "age": 35,
     "gender": "male"
+  },
+  {
+    "name": "Ebube",
+    "age": 15,
+    "gender": "female"
   }
 ]

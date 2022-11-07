@@ -23,13 +23,14 @@
       <tbody>
         <tr style="border: 1px">
           <% tablehead.forEach(head=>{%>
-
           <th style="width: 96px"><%= head[1]%></th>
           <% }) %>
         </tr>
 
         <% data.forEach(theData=>{%>
         <tr style="border: 1px">
+          <% tablehead.forEach(head=>{%> <% const headTitle=head[1] %>
+
           <td
             style="
               border-left: thin solid;
@@ -38,8 +39,9 @@
               text-align: center;
             "
           >
-            Hello
+            <%=theData[headTitle] %>
           </td>
+          <% }) %>
         </tr>
         <% }) %>
       </tbody>
